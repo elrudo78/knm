@@ -10,7 +10,7 @@ int main(int argc, char **argv)
 {
 int listenfd,connfd,len;
 struct sockaddr_in servaddr,clientaddr;
-char buff[1024];
+char buff[1024]; 
 time_t ticks;
 len=sizeof(struct sockaddr_in);
 listenfd=socket(AF_INET,SOCK_STREAM,0);
